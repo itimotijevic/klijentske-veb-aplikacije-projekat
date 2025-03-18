@@ -21,8 +21,8 @@ export class MovieService {
             params: {
                 'page': page,
                 'size': size,
-                'sort': 'genre,asc', // nisam siguran da li treba po moveID i title ili po ovome????
-                'type': 'movie'
+                'sort': 'movieId,asc', // nisam siguran da li treba po moveID i title ili po ovome????
+                'type': 'title'
 
             }
         });
