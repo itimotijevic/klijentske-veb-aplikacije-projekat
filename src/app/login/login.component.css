@@ -1,0 +1,46 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2f3136;
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 32px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    color: #000; 
+  }
+  
+  .login-container h1 {
+    color: black !important;  
+    font-weight: bold;
+  }
+  
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin-top: 12px;
+    width: 100%;
+  }
+  
+  .bottom-links {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .bottom-links a {
+    margin-left: 6px;
+    font-weight: bold;
+    color: #3f51b5;
+    text-decoration: none;
+  }
+  

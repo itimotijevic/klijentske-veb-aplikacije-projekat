@@ -2,11 +2,11 @@ html,
 body {
     height: 100%;
     background-color: #36393e;
-    color: white;
+    color: rgb(180, 179, 179);
 }
 
 a {
-    color: gray;
+    color: rgb(139, 95, 95);
 }
 
 body {
