@@ -16,7 +16,7 @@ export class HomeComponent {
 
   constructor () {
     MovieService.getMovies()
-    .then(rsp => this.movies = rsp.data.content)
+    .then(rsp => this.movies = rsp.data)
     .catch((e: AxiosError) => this.error = `${e.code} ${e.message}`)
   }
 }
